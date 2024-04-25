@@ -1,0 +1,41 @@
+.resizable-box {
+    position: relative;
+    border: 1px solid #000;
+  }
+  
+  .resizer {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #000;
+  }
+  
+  .resizer.top {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: ns-resize;
+  }
+  
+  .resizer.right {
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    cursor: ew-resize;
+  }
+  
+  .resizer.bottom {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: ns-resize;
+  }
+  
+  .resizer.left {
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    cursor: ew-resize;
+  }
+  
